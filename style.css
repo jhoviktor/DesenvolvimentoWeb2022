@@ -1,0 +1,270 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://1.bp.blogspot.com/-phIYzl1Enw4/YP4VAKFPrmI/AAAAAAAAARk/D_UHEHypX9UP22ob7reuZNImIn3AdtBnQCLcBGAsYHQ/s1280/Unova_B2W2_alt.png);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+* {
+    transition: .2s;
+}
+
+.intro {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.intro h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+    color: rgb(47, 0, 128);
+    text-shadow:
+        -1px -1px 0px #FFF,
+        -1px 1px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px 0px 0px #FFF;
+}
+
+.intro h2 {
+    margin-bottom: 50px;
+    color: rgb(10, 0, 64);
+    text-shadow:
+        -1px -1px 0px #FFF,
+        -1px 1px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px 0px 0px #FFF;
+}
+
+.intro h3 {
+    color: rgb(0, 0, 0);
+    text-shadow:
+        -1px -1px 0px #FFF,
+        -1px 1px 0px #FFF,
+        1px -1px 0px #FFF,
+        1px 0px 0px #FFF;
+}
+
+.input-area {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.input-area input {
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.input-area button {
+    border: 1px solid #fff;
+    border-radius: 3px;
+
+    width: 100px;
+    padding: 5px;
+
+    background-color: rgb(47, 0, 128);
+    color: #fff;
+}
+
+.times h3 {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 3px;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+.cards-carrosel {
+    width: 90vw;
+    height: 360px;
+    padding: 20px 10px;
+    margin: 50px auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 50px;
+}
+
+.card {
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 4px;
+
+    border-radius: 20px;
+    padding: 30px;
+    min-height: 300px;
+    max-height: 300px;
+    min-width: 15vw;
+    max-width: 15vw;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.poke {
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    background-size: cover;
+}
+
+.ico1 {
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/498.png');
+}
+
+.ico2 {
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/495.png');
+}
+
+.ico3 {
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/501.png');
+}
+
+.ico4 {
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/504.png');
+}
+
+.ico5 {
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/506.png');
+}
+
+.ico6 {
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/509.png');
+}
+
+.ico7 {
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/511.png');
+}
+
+.ico8 {
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/pokedex/full/513.png');
+}
+
+.text1 {
+    text-shadow: -1.5px 0 rgb(180, 0, 0), 0 1.5px rgb(180, 0, 0), 1.5px 0 rgb(180, 0, 0), 0 -1.5px rgb(180, 0, 0);
+}
+
+.text2 {
+    text-shadow: -1.5px 0 rgb(0, 228, 15), 0 1.5px rgb(0, 228, 15), 1.5px 0 rgb(0, 228, 15), 0 -1.5px rgb(0, 228, 15);
+}
+
+.text3 {
+    text-shadow: .5px 0 rgb(0, 98, 255), 0 1.5px rgb(0, 98, 255), 1.5px 0 rgb(0, 98, 255), 0 -1.5px rgb(0, 98, 255);
+}
+
+.text4 {
+    text-shadow: -1.5px 0 rgb(150, 45, 0), 0 1.5px rgb(150, 45, 0), 1.5px 0 rgb(150, 45, 0), 0 -1.5px rgb(150, 45, 0);
+}
+
+.text5 {
+    text-shadow: -1.5px 0 rgb(242, 177, 0), 0 1.5px rgb(242, 177, 0), 1.5px 0 rgb(242, 177, 0), 0 -1.5px rgb(242, 177, 0);
+}
+
+.text6 {
+    text-shadow: -1.5px 0 rgb(131, 0, 131), 0 1.5px rgb(131, 0, 131), 1.5px 0 rgb(131, 0, 131), 0 -1.5px rgb(131, 0, 131);
+}
+
+.text7 {
+    text-shadow: -1.5px 0 rgb(9, 80, 0), 0 1.5px rgb(9, 80, 0), 1.5px 0 rgb(9, 80, 0), 0 -1.5px rgb(9, 80, 0);
+}
+
+.text8 {
+    text-shadow: -1.5px 0 rgb(255, 0, 0), 0 1.5px rgb(255, 0, 0), 1.5px 0 rgb(255, 0, 0), 0 -1.5px rgb(255, 0, 0);
+}
+
+.secao {
+    width: 80%;
+    height: 250px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.desc {
+    width: 40%;
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+.img {
+    width: 400px;
+    height: 200px;
+    background-image: url('http://1.bp.blogspot.com/-4c-cU4230QQ/UXCc-EJysuI/AAAAAAAAKwQ/vB5g9tNJ3-U/s1600/Unova_Pokedex_anime.png');
+    background-size: cover;
+}
+
+.video {
+    width: 50%;
+    height: 100%;
+}
+
+.cidades h2 {
+    text-align: center;
+    color: #FFF;
+    text-shadow: -2px 0 rgb(0, 0, 0), 0 2px rgb(0, 0, 0), 2px 0 rgb(0, 0, 0), 0 -2px rgb(0, 0, 0);
+}
+
+.icons-cidade {
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icon-cidade {
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.nome-cidade {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+.cidade1 {
+    background-image: url('https://archives.bulbagarden.net/media/upload/a/ae/Castelia_City.png');
+}
+
+.cidade2 {
+    background-image: url('https://archives.bulbagarden.net/media/upload/thumb/3/39/Opelucid_City_Summer_B2.png/1118px-Opelucid_City_Summer_B2.png');
+}
+
+.cidade3 {
+    background-image: url('https://archives.bulbagarden.net/media/upload/d/d9/Lacunosa_Town_Summer_B2W2.png');
+}
+
+.cidade4 {
+    background-image: url('https://archives.bulbagarden.net/media/upload/e/e6/Lentimas_Town_B2W2.png');
+}
+
+.icon-cidade:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.534);
+    color: #FFF;
+    text-align: center;
+    padding: 50px;
+}
